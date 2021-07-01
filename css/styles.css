@@ -206,7 +206,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -297,6 +297,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -540,6 +541,11 @@ a {
   border-radius: 5px;
 }
 
+.callout-signup {
+  transform: translateY(5rem);
+  position: static;
+}
+
 .callout--primary {
   background: var(--color-primary);
   color: #fff;
@@ -619,6 +625,7 @@ a {
 
 .block__heading {
   margin-top: 0;
+  margin-bottom: 6rem;
 }
 
 .block--dark {
@@ -743,8 +750,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -771,7 +779,7 @@ a {
 /* Features */
 .feature {
   gap: 4rem 2rem;
-  margin: 12rem 0;
+  margin: 6rem 0;
 }
 
 .feature:first-of-type {
